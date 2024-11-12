@@ -1,0 +1,9 @@
+namespace App21
+{
+    runtimeclass BgLabelControl : Microsoft.UI.Xaml.Controls.Control
+    {
+        BgLabelControl();
+        static Microsoft.UI.Xaml.DependencyProperty LabelProperty{ get; };
+        String Label;
+    }
+}
